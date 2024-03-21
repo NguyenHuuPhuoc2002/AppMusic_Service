@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="2dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="7dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_custom">
+
+        <ImageView
+            android:id="@+id/imgsong"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/ic_music" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_height="wrap_content"
+                android:text="Tên Vài Hát"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/txtsinger"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_height="wrap_content"
+                android:text="Ca Sĩ"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
